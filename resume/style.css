@@ -4,6 +4,7 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 /* creates general font family */
@@ -46,14 +47,14 @@ body {
   font-size: 1.5em;
 }
 /* adjusts size for job dates */
-.job {
+.date {
   font-weight: 400;
   font-size: 1em;
   margin: 10px, 0px, 0px;
 }
 /* adjusts size for contact info, education, and skills */
 ul {
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .description {
@@ -61,9 +62,26 @@ ul {
 }
 
 .menu{
-  display: inline;
+  margin:0px;
+  padding: 0px;
+  text-align: center;
 }
 
-.degrees {
+.menu li {
+    display: inline;
+}
+
+#degrees {
   margin: 5px, 0px, 0px;
+}
+
+#do {
+  margin: 5px, 0px, 0px;
+}
+
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
