@@ -55,3 +55,15 @@ body {
 ul {
   font-size: 1.5em;
 }
+
+.description {
+  margin: 10px, 0px;
+}
+
+.menu{
+  display: inline;
+}
+
+.degrees {
+  margin: 5px, 0px, 0px;
+}
