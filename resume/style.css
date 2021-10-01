@@ -51,10 +51,7 @@ body {
   font-weight: 400;
   font-size: 1em;
   margin: 10px, 0px, 0px;
-}
-/* adjusts size for contact info, education, and skills */
-ul {
-  font-size: 1em;
+  font-style: italic;
 }
 
 .description {
