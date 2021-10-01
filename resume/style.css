@@ -40,6 +40,7 @@ body {
 .jobtitle {
   font-weight: 600;
   font-size: 2em;
+  color: black;
 }
 /* adjusts size for job organization */
 .organization {
