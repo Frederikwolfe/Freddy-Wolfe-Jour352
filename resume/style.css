@@ -8,12 +8,12 @@
 }
 
 /* creates general font family */
+
 body {
-  font-family: 'Open Sans', Arial, sans-serif;
-  font-weight: 400;
-  font-size: 1em;
+  font-family: "Open Sans", Arial, sans-serif;
   color: #444;
 }
+
 /* top banner */
 #name {
   font-size: 3.5em;
@@ -25,6 +25,17 @@ body {
   min-width: 300px;
   margin: 0 auto;
 }
+
+/* Title formatting */
+#title {
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #33485e;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+}
+
 /* adds blue bars and makes text white for section titles */
 .sectionheader {
   color: white;
@@ -32,7 +43,8 @@ body {
   font-size: 1.5em;
   background-color: #33485e;
   font-weight: 400;
-  margin: 20px, 0px, 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   width: 70%;
   min-width: 300px;
 }
