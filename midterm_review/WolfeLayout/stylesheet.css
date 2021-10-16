@@ -1,9 +1,14 @@
 
+
+
 #byline {
-font-family: Helvetica, sans-serif;
-font-size: 14px;
-font-style: italic;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  padding-bottom: 40px;
+  text-align: center;
 }
+
 
 blockquote {
   font: 16px/24px normal helvetica, sans-serif;
@@ -14,9 +19,70 @@ blockquote {
   margin-left: 50px;
   padding-left: 15px;
   border-left: 4px solid #ccc;
+  text-align: left;
+  margin-left: 400px;
+  margin-right: 400px;
 }
 
-.headline {
-  font-family: sans-serif;
+.header {
 
+}
+
+.spacer {
+  padding: 30px;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 50px;
+  padding-bottom: 20px;
+  text-align: left;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.blog-header-logo {
+  font-family: "Pirata One", cursive;
+  font-size: 35px;
+  text-decoration: none;
+  text-align: center;
+}
+
+#image {
+  display: block;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+p {
+  margin-left: 400px;
+  margin-right: 400px;
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
+
+.caption {
+  text-align: center;
+  font-size: 11px;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-bottom: 40px;
+  color: grey;
+}
+
+.caption1 {
+  text-align: left;
+  font-size: 13px;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-bottom: 40px;
+  color: grey;
+}
+
+h2 {
+  text-align:left;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-size: 20px;
+  padding-top: 30px;
 }
