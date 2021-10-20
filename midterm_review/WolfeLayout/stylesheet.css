@@ -55,8 +55,8 @@ h1 {
 }
 
 p {
-  margin-left: 400px;
-  margin-right: 400px;
+  margin: 0 auto;
+  width: 50%;
   font-family: Georgia, serif;
   font-size: 13px;
 }
