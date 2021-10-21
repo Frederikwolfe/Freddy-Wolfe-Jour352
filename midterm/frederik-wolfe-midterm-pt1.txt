@@ -1,0 +1,74 @@
+Jour352: Midterm
+Part 1: Q&A
+
+
+1.
+
+<a href="https://www.google.com/" target="_blank">Google is the best search engine in the world.</a>
+
+
+2.
+
+A div tag is a container that creates divisions between groups of HTML elements. This allows style to be added to many HTML elements at once.
+
+
+3.
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr"
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+  </body>
+</html>
+
+
+4.
+
+You would put a link to a stylesheet in the <head> section.
+
+
+5.
+
+You would put text, images, or DIV tags in the <body> section.
+
+
+6.
+
+<div class="graphicbox"></div>
+
+<div id="name"></div>
+
+
+7.
+
+<div class="fruit" id="apples"></div>
+
+
+8.
+
+.fruit {
+  color: #000000;
+}
+
+
+9.
+
+<img>
+
+
+10.
+
+We use media queries to modify our site by adding conditional style depending on the screen size and the resolution of the device viewing the webpage.
+
+
+11.
+
+A serif font has a serif, while a sans-serif font does not have a serif. A serif is a small line or stroke added as embellishment to the ends of larger stokes in letters.
+
+
+12.
+
+#FFCC33 is hexadecimal code.
