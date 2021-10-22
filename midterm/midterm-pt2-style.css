@@ -10,6 +10,21 @@ html, body{
   margin: 0 auto;
 }
 
+input{
+  margin-right: 40px;
+  width: 200px;
+}
+
+.subscribe{
+  margin-left: 20px;
+  margin-right: 70px;
+  color: grey;
+}
+
+.subscribe:hover{
+  color: black;
+  text-decoration: underline;
+}
 
 #page-wrapper{
 
@@ -56,7 +71,7 @@ p{
   font-family: Helvetica, Arial, sans-serif;
   /* changed font size to 17 because 12 wwas too hard to read */
   font-size: 17px;
-  line-height: 150%;
+  line-height: 175%;
   margin: 0 auto;
   width: 600px;
   padding: 10px 0;
