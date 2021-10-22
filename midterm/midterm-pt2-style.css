@@ -1,0 +1,151 @@
+html, body{
+  margin: 0;
+  height: 100%;
+}
+
+.navbar-brand{
+  display: block;
+  font-family: 'Audiowide', cursive;
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+
+#page-wrapper{
+
+}
+
+#lead-image{
+  padding: 20px 0;
+  width: 900px;
+}
+
+h1{
+  font-family: 'Noto Serif Display';
+  font-size: 40px;
+  width: 700px;
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+  color: black;
+  padding-top: 100px;
+}
+
+#byline{
+  font-family: Helvetica, sans-serif;
+  font-size: 17px;
+  font-style: italic;
+  color: #808080;
+  margin: 0 auto;
+  width: 700px;
+  padding: 10px 0;
+}
+
+blockquote{
+  font-family: serif;
+  font-size: 30px;
+  width: 700px;
+  display: block;
+  margin: 0 auto;
+  border-left: 4px solid #ccc;
+  padding:20px 0px 20px 15px;
+}
+
+p{
+  display: block;
+  font-family: Helvetica, Arial, sans-serif;
+  /* changed font size to 17 because 12 wwas too hard to read */
+  font-size: 17px;
+  line-height: 150%;
+  margin: 0 auto;
+  width: 600px;
+  padding: 10px 0;
+}
+
+img{
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  width: 700px;
+}
+
+.cap{
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  color: #808080;
+  margin: 0 auto;
+  width: 700px;
+  padding: 10px 0;
+}
+
+.img-cap{
+  padding: 20px 0;
+}
+
+.subhead{
+  font-family:'Rubik', sans-serif;
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  padding: 20px 0 0 0;
+}
+
+.navbar{
+  position: fixed;
+}
+
+#infographic{
+  width: 700px;
+  height: auto;
+  max-width:960px;
+  -ms-interpolation-mode: bicubic;
+}
+
+@media screen and (max-width: 800px) {
+  p, .subhead{
+    width: 400px;
+  }
+  #lead-image, #byline, img, h1, .cap, blockquote, a {
+    width: 500px;
+  }
+}
+
+h4{
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 30px;
+  border-bottom: 4px solid #ccc;
+  width: 50%;
+}
+
+.col-md-3{
+  padding-top: 20px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.article{
+  width: 200px;
+  vertical-align: middle;
+  display: table;
+  padding-bottom: 20px;
+}
+
+.link {
+  font-size: 15px;
+  font-family: Helvetica, sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+.link:hover{
+  text-decoration: underline;
+  color: inherit;
+}
+
+.row{
+  padding-bottom: 50px;
+}
