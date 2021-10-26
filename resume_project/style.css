@@ -16,14 +16,7 @@ body {
 
 /* top banner */
 #name {
-  font-size: 3.5em;
-  text-transform: uppercase;
-  color: #33485e;
-  text-align: center;
-  border-bottom: 2px solid #33485e;
-  width: 60%;
-  min-width: 300px;
-  margin: 0 auto;
+  font-family: 
 }
 
 /* Title formatting */
@@ -85,7 +78,7 @@ body {
   margin: 5px, 0px, 0px;
 }
 
-#do {
+#skills {
   margin: 5px, 0px, 0px;
 }
 
