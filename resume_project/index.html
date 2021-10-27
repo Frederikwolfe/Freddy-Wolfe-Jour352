@@ -18,8 +18,10 @@
   <body>
       <!-- banner -->
       <div id="banner">
-        <div id="name">Frederik Wolfe</div>
-        <div id="title">Photographer</div>
+        <div class="name-title">
+          <div id="name">Frederik Wolfe</div>
+          <div id="title">Photographer</div>
+        </div>
         <button type="button" onclick="location.href='#menu'">
           <div class="scroll-down"></div>
         </button>
@@ -27,11 +29,15 @@
 
       <!-- scroll menu -->
       <div class="scroll">
-        <ul>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#skills">Skills</a></li>
-        </ul>
+        <nav>
+          <ul id="scroll-menu">
+            <li><a class="scroll-item" href="#experience">Experience</a></li>
+            <li class="line"></li>
+            <li><a class="scroll-item" href="#education">Education</a></li>
+            <li class="line"></li>
+            <li><a class="scroll-item" href="#skills-wrapper">Skills</a></li>
+          </ul>
+        </nav>
       </div>
 
       <!-- social media menu -->
@@ -46,72 +52,94 @@
         <img id="portrait" src="images/freddy.jpg" alt="A photograph of Frederik Wolfe." height="150">
         <p class= "description">I am a Photographer attending the University of Maryland, College Park majoring in journalism at the Phillip Merrill College of Journalism. I am currently working as a staff photographer at The Diamondback, a publication at the University of Maryland. I have experience in digital and analog photographic techniques as well as most major photo editing software.</p>
       </div>
+      <div id="wrapper">
+        <div id="experience">
+          <div class="sectionheader">Experience</div>
 
-      <div id="experience">
-        <div class="sectionheader">Experience</div>
+            <div class= "jobtitle">Line Cook</div>
+            <div class= "organization">Toki Tako, Baltimore, MD</div>
+            <div class= "date">May 2021-August 2021</div>
+            <p class= "description">Worked as a line cook fulfilling orders and prepping ingredients.</p>
 
-          <div class= "jobtitle">Line Cook</div>
-          <div class= "organization">Toki Tako, Baltimore, MD</div>
-          <div class= "date">May 2021-August 2021</div>
-          <p class= "description">Worked as a line cook fulfilling orders and prepping ingredients.</p>
+            <div class= "jobtitle">Staff Photographer</div>
+            <div class= "organization">“The Diamondback” Newspaper, College Park, MD</div>
+            <div class= "date">January 2021-Present</div>
+            <p class= "description">Take photographs for news stories and of events on/off the University of Maryland campus.</p>
 
-          <div class= "jobtitle">Staff Photographer</div>
-          <div class= "organization">“The Diamondback” Newspaper, College Park, MD</div>
-          <div class= "date">January 2021-Present</div>
-          <p class= "description">Take photographs for news stories and of events on/off the University of Maryland campus.</p>
+            <div class= "jobtitle">Arts Intern</div>
+            <div class= "organization">Bloomberg Arts Internship, Baltimore, MD</div>
+            <div class= "date">June 2019-August 2019</div>
+            <p class= "description">Participated in professional development and college readiness to prepare for a career in arts and cultural institutions.</p>
 
-          <div class= "jobtitle">Arts Intern</div>
-          <div class= "organization">Bloomberg Arts Internship, Baltimore, MD</div>
-          <div class= "date">June 2019-August 2019</div>
-          <p class= "description">Participated in professional development and college readiness to prepare for a career in arts and cultural institutions.</p>
+            <div class= "jobtitle">Arts Intern</div>
+            <div class= "organization">The Sheridan Libraries at Johns Hopkins University: John Work Garrett Library (Evergreen Museum & Library), Baltimore, MD</div>
+            <div class= "date">June 2019-August 2019</div>
+            <p class= "description">Worked with director and curator to catalogue historic photo collection and created interactive lesson plans for visiting elementary school students.</p>
 
-          <div class= "jobtitle">Arts Intern</div>
-          <div class= "organization">The Sheridan Libraries at Johns Hopkins University: John Work Garrett Library (Evergreen Museum & Library), Baltimore, MD</div>
-          <div class= "date">June 2019-August 2019</div>
-          <p class= "description">Worked with director and curator to catalogue historic photo collection and created interactive lesson plans for visiting elementary school students.</p>
+            <div class= "jobtitle">Line Cook/Prep cook/Dishwasher</div>
+            <div class= "organization">The Local Fry, Baltimore, MD</div>
+            <div class= "date">July 2018-August 2020</div>
+            <p class= "description">Worked as kitchen staff in restaurant. Gained experience in dishwashing, ingredient preparation, and order fulfillment.</p>
 
-          <div class= "jobtitle">Line Cook/Prep cook/Dishwasher</div>
-          <div class= "organization">The Local Fry, Baltimore, MD</div>
-          <div class= "date">July 2018-August 2020</div>
-          <p class= "description">Worked as kitchen staff in restaurant. Gained experience in dishwashing, ingredient preparation, and order fulfillment.</p>
+            <div class= "jobtitle">Line Cook</div>
+            <div class= "organization">The Verandah, Baltimore, MD</div>
+            <div class= "date">August 2018-January 2019</div>
+            <p class= "description">Duties: food preparation, setup, cleanup, and cooking at the weekly “Baltimore Farmers Market and Bazaar”.</p>
 
-          <div class= "jobtitle">Line Cook</div>
-          <div class= "organization">The Verandah, Baltimore, MD</div>
-          <div class= "date">August 2018-January 2019</div>
-          <p class= "description">Duties: food preparation, setup, cleanup, and cooking at the weekly “Baltimore Farmers Market and Bazaar”.</p>
+            <div class= "jobtitle">Student Helper </div>
+            <div class= "organization">Expressions (Baltimore School for the Arts Annual Gala Fundraiser), Baltimore, MD</div>
+            <div class= "date">April 2018, 2019, 2020</div>
+            <p class= "description">Created interactive VR experiences. Provided technical support for guests using student designed exhibits. Set up spaces for interactive experiences.</p>
 
-          <div class= "jobtitle">Student Helper </div>
-          <div class= "organization">Expressions (Baltimore School for the Arts Annual Gala Fundraiser), Baltimore, MD</div>
-          <div class= "date">April 2018, 2019, 2020</div>
-          <p class= "description">Created interactive VR experiences. Provided technical support for guests using student designed exhibits. Set up spaces for interactive experiences.</p>
+            <div class= "jobtitle">Exhibit Creator</div>
+            <div class= "organization">Baltimore School for the Arts / Artscape, Baltimore, MD</div>
+            <div class= "date">July 2018</div>
+            <p class= "description">Created a series of photograms and cyanotypes for display in 2018 Artscape, a summer arts festival in Baltimore, MD.</p>
+        </div>
 
-          <div class= "jobtitle">Exhibit Creator</div>
-          <div class= "organization">Baltimore School for the Arts / Artscape, Baltimore, MD</div>
-          <div class= "date">July 2018</div>
-          <p class= "description">Created a series of photograms and cyanotypes for display in 2018 Artscape, a summer arts festival in Baltimore, MD.</p>
+        <div id="education">
+          <div class="sectionheader">Education</div>
+            <ul id="degrees">
+              <li>
+                <div class="degree-type">
+                  Bachelor of Arts - Majoring in Journalism,
+                </div>
+                <div class="school">
+                  Phillip Merrill College of Journalism at the University of Maryland,
+                </div>
+                <div class="graduation">
+                  August 2020 - expected May 2024
+                </div>
+              </li>
+
+              <li>
+                <div class="degree-type">
+                  Highschool Diploma - Visual Arts Major,
+                </div>
+                <div class="school">
+                  Baltimore School for the Arts, Baltimore, MD,
+                </div>
+                <div class="graduation">
+                  September 2016 - May 2020
+                </div>
+              </li>
+            </ul>
+        </div>
+
+          <div id="skills-wrapper" class="sectionheader">Skills</div>
+            <div id="skills-div">
+              <ul id="skills">
+                <li>Proficient in Adobe Photoshop, Adobe Illustrator, Adobe After Effects, Adobe Lightroom, Mad Mapper, EPSON Scan, Logic Pro X, Instagram, Twitter, and Snapchat.</li>
+                <li>3 years of Spanish immersion classes, Spanish I, Honors Spanish II, Honors Spanish III.</li>
+                <li>Music Composition and Production in Logic Pro X.</li>
+                <li>Instrumental Music: guitar, bass guitar, keyboard, and percussion.</li>
+                <li>Fine Arts: drawing, painting, ceramics, design, sculpture, stone carving, silicon mold-making.</li>
+                <li>Film and digital photography, film photo development, and film photo printing.</li>
+              </ul>
+            </div>
       </div>
-
-      <div id="education">
-        <div class="sectionheader">Education</div>
-        
-          <ul id="degrees">
-            <li>Bachelor of Arts - Majoring in Journalism, Phillip Merrill College of Journalism at the University of Maryland, August 2020 - expected May 2024</li>
-            <li>Highschool Diploma - Visual Arts Major, Baltimore School for the Arts, Baltimore, MD, September 2016 - May 2020</li>
-          </ul>
+      <div class="footer">
+        <p>Frederik Wolfe, 2021</p>
       </div>
-
-      <div id="skills">
-        <div class="sectionheader">Skills</div>
-
-          <ul id="skills">
-            <li>Proficient in Adobe Photoshop, Adobe Illustrator, Adobe After Effects, Adobe Lightroom, Mad Mapper, EPSON Scan, Logic Pro X, Instagram, Twitter, and Snapchat.</li>
-            <li>3 years of Spanish immersion classes, Spanish I, Honors Spanish II, Honors Spanish III.</li>
-            <li>Music Composition and Production in Logic Pro X.</li>
-            <li>Instrumental Music: guitar, bass guitar, keyboard, and percussion.</li>
-            <li>Fine Arts: drawing, painting, ceramics, design, sculpture, stone carving, silicon mold-making.</li>
-            <li>Film and digital photography, film photo development, and film photo printing.</li>
-          </ul>
-      </div>
-
   </body>
 </html>
