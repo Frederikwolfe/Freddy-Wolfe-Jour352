@@ -1,8 +1,11 @@
+body{
+  overflow-x: hidden;
+}
 
 .hero {
   height: 100vh;
   width: 100vw;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/SoniaHug_StreetView.jpg);
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .9) ), url(images/SoniaHug_StreetViewBW.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -14,36 +17,61 @@
 }
 
 .title {
-
+  font-family: 'Playfair Display', serif;
+  font-size: 8em;
+  padding-top: 10%;
 }
 
 .subtitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 2em;
+  margin-top: 5%;
+}
 
+.scroll {
+  font-family: 'Playfair Display', serif;
+  position: absolute;
+  font-style: italic;
+  bottom: 5%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  animation: scroll-animation 2s ease-in-out infinite;
+}
+
+@keyframes scroll-animation {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    bottom: 2.5%;
+  }
 }
 
 .container {
+  width: 70%;
+}
+
+.container-end {
   width: 50%;
-}
-
-.headline {
-  font-size: 3em;
-  font-weight: 700;
-  text-align: left;
+  text-align: center;
+  padding-bottom: 2%;
   font-family: 'Montserrat', sans-serif;
-}
-
-.byline {
-  font-size: 1em;
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-  text-align: left;
-}
-
-.chapter {
-  font-size: 2em;
-  font-family: 'Montserrat', sans-serif;
-  text-align: left;
-  font-weight: 700;
+  color: grey;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 0.75em;
+  display: block;
+  margin: 0 auto;
 }
 
 p {
@@ -52,7 +80,7 @@ p {
 }
 
 img {
-  width: 90%;
+  width: 100%;
   display: block;
   margin: 0 auto;
 }
@@ -60,11 +88,123 @@ img {
 .caption {
   font-family: 'Montserrat', sans-serif;
   color: grey;
+  font-style: italic;
+  font-weight: 300;
+  display: block;
+  text-align: left;
+  font-size: 0.75em;
+}
+
+.hero-caption {
+  text-align: right;
+  padding: 0 2%;
+}
+
+.headline {
+  font-size: 3em;
+  text-align: left;
+  font-family: 'Playfair Display', serif;
+  padding-top: 5%;
+  margin-bottom: 0;
+}
+
+.byline {
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
+
+.lead-image-container {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.lead-caption{
+  font-family: 'Montserrat', sans-serif;
+  color: grey;
+  font-style: italic;
+  font-weight: 300;
+  display: block;
+  text-align: left;
+  font-size: 0.75em;
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
+
+.graphic {
+  width: 0 auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+
+.chapter {
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  font-weight: 700;
+}
+
+.pull-quote {
+  font-family: 'Playfair Display', serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-left: 4px solid grey;
+  text-align: left;
   padding-left: 5%;
 }
 
-.photo-cap {
-  padding: 2%;
+.quote {
+  font-size: 2em;
+  margin-bottom: 2%;
+}
+
+.attribution {
+  color: grey;
+}
+
+.sidebar {
+  text-align: left;
+  width: 80%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10vh;
+  margin-top: 300%;
+  border: 3px double black;
+  padding: 2% 5%;
+}
+
+.sidebar-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 2%;
+  border-bottom: 2px solid black;
+}
+
+.sidebar-intro {
+  font-family: Georgia, serif;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+ul {
+  font-family: Georgia, serif;
+  font-size: 0.8em;
+}
+
+.sidebar-attribution {
+  font-family: 'Montserrat', sans-serif;
+  color: grey;
+  font-style: italic;
+  font-weight: 300;
+  display: block;
+  text-align: center;
+  font-size: 0.75em;
 }
 
 .footer {
@@ -76,4 +216,65 @@ img {
   color: white;
   text-align: center;
   padding-top: 20px;
+}
+
+.col-md-8 {
+  padding: 0;
+}
+
+.col-md-4 {
+  padding: 0;
+  margin-bottom: 400%;
+}
+
+a {
+  color: grey;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: blue;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 800px) {
+  .title {
+    font-size: 4em;
+    padding-top: 20%;
+  }
+  .subtitle {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .col-md-4 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .headline {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .sidebar {
+    top:1vh;
+    margin-top: 150%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .sidebar {
+    position: absolute;
+    width: 90%;
+
+  }
 }
