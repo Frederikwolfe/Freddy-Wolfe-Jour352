@@ -2,6 +2,11 @@ body {
   background-color: black;
 }
 
+iframe {
+  background-color: white;
+  padding: 0 25%;
+}
+
 .container {
   font-family: Georgia;
   color: white;
