@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+}
+
+.container {
+  font-family: Georgia;
+  color: white;
+  padding-top: 5%;
+}
+
+.hero {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3) ), url(images/bushfire.jpg);
+  /* Dean Sewell—The Sydney Morning Herald/Getty Images */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.headline {
+  font-family: 'Playfair Display', serif;
+  font-size: 5em;
+  color: white;
+  text-align: center;
+  padding:5% 5% 2.5% 5%;
+}
+
+.line {
+  display: block;
+  width: 50vw;
+  margin: 0 auto;
+  border-bottom: 2px solid white;
+}
+
+.subhead {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5em;
+  font-style: italic;
+  text-align: center;
+  color: white;
+  padding: 1% 15%;
+}
+
+.copy {
+  padding-bottom: 2%;
+  line-height: 2em;
+}
