@@ -11,6 +11,7 @@ nav {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
   font-style: italic;
+  font-size: 1.5em;
 }
 
 .form-control, .form-control:focus {
@@ -43,7 +44,7 @@ nav {
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-image: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, .3) ), url(images/bushfire.jpg);
+  background-image: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, .4) ), url(images/bushfire.jpg);
   /* Residents look on as flames burn through bush in Lake Tabourie, Australia, on January 4, 2020. Brett Hemmings/Getty Images */
   background-size: cover;
   background-repeat: no-repeat;
@@ -68,8 +69,16 @@ nav {
   border-bottom: 2px solid white;
 }
 
+.divider {
+  display: block;
+  width: 10vw;
+  margin: 2% auto;
+  border-bottom: 2px solid white;
+
+}
+
 .subhead {
-  font-family: 'Playfair Display', serif;
+  font-family: Georgia, serif;
   font-size: 1.5em;
   font-style: italic;
   text-align: center;
@@ -86,7 +95,6 @@ nav {
 }
 
 .copy {
-  padding-bottom: 2%;
   line-height: 2em;
   padding: 1% 20%;
 }
@@ -105,11 +113,13 @@ nav {
   width: 100%;
   display: block;
   margin: 0 auto;
+  border-bottom: 3px outset red;
+  border-left: 3px outset red;
 }
 
 .hero-cap {
   padding-left: 1%;
-  width: 30%;
+  width: 43%;
 }
 
 .attrib {
@@ -117,9 +127,12 @@ nav {
 }
 
 .row-img {
-  padding: 0 5%;
+  padding: 1% 15%;
 }
 
 .row-data {
   background-color: white;
+  padding: 1%;
+  margin: 3% 15%;
+  border: 3px outset red;
 }
