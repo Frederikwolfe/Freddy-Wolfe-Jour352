@@ -2,23 +2,49 @@ body {
   background-color: black;
 }
 
-iframe {
-  background-color: white;
-  padding: 0 25%;
+nav {
+  background-color: rgba(0, 0, 0, 1);
+  font-family: Georgia, serif;
 }
 
-.container {
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.form-control, .form-control:focus {
+  background-color:rgba(0,0,0,0);
+}
+
+.byline {
+  margin: 0 auto;
+  font-family: 'Playfair Display', serif;
+  border-left: 2px solid red;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.time {
+  margin: 0 auto;
+  font-size: 0.8em;
+  font-style: italic;
+  padding-top: 1%;
+  color: #A0A0A0;
+}
+
+.content {
   font-family: Georgia;
   color: white;
-  padding-top: 5%;
+  padding-top: 2%;
 }
 
 .hero {
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-image: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3) ), url(images/bushfire.jpg);
-  /* Dean Sewell—The Sydney Morning Herald/Getty Images */
+  background-image: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, .3) ), url(images/bushfire.jpg);
+  /* Residents look on as flames burn through bush in Lake Tabourie, Australia, on January 4, 2020. Brett Hemmings/Getty Images */
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -29,6 +55,10 @@ iframe {
   color: white;
   text-align: center;
   padding:5% 5% 2.5% 5%;
+}
+
+.red {
+  color: red;
 }
 
 .line {
@@ -47,7 +77,49 @@ iframe {
   padding: 1% 15%;
 }
 
+.cap {
+  text-align: left;
+  padding-top: 2px;
+  font-family: Georgia, serif;
+  font-size: 0.85em;
+  color: #A0A0A0;
+}
+
 .copy {
   padding-bottom: 2%;
   line-height: 2em;
+  padding: 1% 20%;
+}
+
+.sectioncap {
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  font-size: 5em;
+  color: red;
+  float: left;
+  line-height: 0.8;
+  margin-right: 1%;
+}
+
+.image-body {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.hero-cap {
+  padding-left: 1%;
+  width: 30%;
+}
+
+.attrib {
+  font-style: italic;
+}
+
+.row-img {
+  padding: 0 5%;
+}
+
+.row-data {
+  background-color: white;
 }
