@@ -254,8 +254,30 @@ blockquote {
   }
 
   p {
-    padding: 1% 2%;
+    padding: 1% 2% 1% 5% !important;
     width: 95%;
+  }
+
+  .cap {
+    width: 100%
+  }
+
+  .row-img {
+    padding: 1% 0% !important;
+  }
+
+  .image-body {
+    border: none;
+  }
+
+  .row-data {
+    margin: 0;
+  }
+
+  .pull {
+    margin: 8%;
+    padding: 2% !important;
+    font-size: 0.75em;
   }
 
 }
