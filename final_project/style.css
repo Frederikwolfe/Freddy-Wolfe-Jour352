@@ -1,5 +1,6 @@
 body {
   background-color: black;
+
 }
 
 nav {
@@ -56,6 +57,37 @@ nav {
   color: white;
   text-align: center;
   padding:5% 5% 2.5% 5%;
+}
+
+.scroll {
+  font-family: 'Playfair Display', serif;
+  position: absolute;
+  font-style: italic;
+  bottom: 5%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  animation: scroll-animation 2s ease-in-out infinite;
+  text-align: center;
+  color: white;
+}
+
+@keyframes scroll-animation {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    bottom: 2.5%;
+  }
 }
 
 .red {
@@ -130,9 +162,95 @@ nav {
   padding: 1% 15%;
 }
 
+.row-img-big {
+  width: 100%
+}
+
+
+.img-big {
+  width: 100vw;
+  height: auto;
+  margin: 0;
+}
+
+.cap-big {
+  width: 50%;
+  padding-left: 1%;
+
+}
+
 .row-data {
   background-color: white;
   padding: 1%;
   margin: 3% 15%;
   border: 3px outset red;
+}
+
+blockquote {
+  font-family: 'Playfair Display', serif;
+  padding: 3%;
+}
+
+.quote {
+  font-size: 2.5em;
+  border-left: 3px solid red;
+  padding: 0 1%;
+}
+
+.speaker {
+  text-align: right;
+  font-size: 1.5em;
+  border-right: 3px solid red;
+  padding-right: 1%;
+}
+
+.map {
+  padding: 2%;
+}
+
+.pull {
+  margin: 3% 25%;
+  padding: 0 1%;
+  border-left: 3px solid red;
+}
+
+@media only screen and (max-width: 992px) {
+  .headline {
+    font-size: 3em;
+    padding:25% 5% 2.5% 5%;
+  }
+  .subhead {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .headline {
+    font-size: 2.5em;
+    padding:30% 5% 2.5% 5%;
+  }
+  .subhead {
+    font-size: 1em;
+  }
+
+  .quote {
+    font-size: 1.5em;
+  }
+  .speaker {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 578px) {
+  .form-inline, .form-control {
+    display: none;
+  }
+
+  .navbar-brand {
+    margin: 0 auto;
+  }
+
+  .cap {
+    font-size: 0.7em;
+  }
 }
