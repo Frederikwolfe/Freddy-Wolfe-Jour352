@@ -239,6 +239,9 @@ blockquote {
   .speaker {
     font-size: 1em;
   }
+  .cap {
+    font-size: 0.7em;
+  }
 }
 
 @media only screen and (max-width: 578px) {
@@ -250,7 +253,5 @@ blockquote {
     margin: 0 auto;
   }
 
-  .cap {
-    font-size: 0.7em;
-  }
+
 }
