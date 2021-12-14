@@ -253,8 +253,8 @@ blockquote {
     margin: 0 auto;
   }
 
-  .copy {
-    padding: 1% 0%;
+  p {
+    padding: 1% 2%;
     width: 95%;
   }
 
